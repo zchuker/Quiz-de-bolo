@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/Sem\ Título-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Quiz {
+
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 7px 50px 8px  black;
+    
+    
+}
+
+.botão {
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 125px;
+    height: 40px;
+    color: white;
+    border: transparent;
+    background-color: rgb(224, 186, 129);
+}
+
+.botão:hover {
+    letter-spacing: 1px;
+    background-color: rgb(158, 130, 89);
+    color: #000000;
+    color: white;
+    box-shadow: #9c8465 0px 7px 29px 0px;
+    transition: 100ms;
+    cursor: pointer;
+
+}
+
+.botão:active {
+
+    letter-spacing: 1px;
+    background-color:  rgb(158, 130, 89);
+    color: #ffffff;
+    box-shadow: #949292 0px 7px 29px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 70px;
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  
+
+.grupo-nome {
+    position: relative;
+}
+
+#nome {
+    padding-top: 10px;
+    width: 100%;
+    height: 20%;
+    color: rgb(3, 3, 3);
+    border: 2px solid var(--verde);
+    background: transparent;
+    width: 300px;
+    height: 40px;
+    padding: 0 1rem;
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+
+label{
+    color: var(--verde);
+    padding: 0 5px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 1em;
+    pointer-events: none;
+    transition: .3s;
+}
+
+@media screen and (min-width:0px) and (max-width:1366px) {
+    .Quiz {
+
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 35%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(233, 233, 233);
+        box-shadow: 5px 7px 50px 8px  black;
+        
+        
+    }
+}
