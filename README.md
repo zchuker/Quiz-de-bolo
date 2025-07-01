@@ -2,5 +2,5 @@
 
 um Quiz de bolo feito para se divertir.
 
-*Ainda falta responsividade*
+
 Feito junto com @RicardoDosSantosFaustino
